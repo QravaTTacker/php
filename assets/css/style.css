@@ -1,24 +1,7 @@
 @charset "UTF-8";
 
-::selection {
-  background-color: #f694ff46;
-}
-
-::-webkit-scrollbar {
-  background-color: #2c263e;
-  border-radius: 10px;
-  height: 10px;
-  width: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #69519d;
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-corner {
-  background-color: #110f18;
-}
+@import url("./classes.css");
+@import url("./margin.css");
 
 body {
   background-color: #110f18;
@@ -30,10 +13,6 @@ h1 {
   font-size: 50px;
 }
 
-.italic {
-  font-style: italic;
-}
-
 a {
   color: #7458ae;
   text-decoration: none;
@@ -43,20 +22,6 @@ a:hover {
   color: #f694ff;
 }
 
-.flutuar {
-  animation: flutuar 2s infinite alternate-reverse;
-  height: 200px;
-}
-
-.purple {
-  color: #a277ff;
-}
-
-@keyframes flutuar {
-  0% {
-    transform: translateY(30px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+dd {
+  font-size: 0.7em;
 }

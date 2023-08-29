@@ -11,6 +11,7 @@
     <meta name="description" content="Página inicial para incorporar todos os conteúdos discutidos e estudados em PHP" />
     <meta name="keywords" content="HTML,  CSS,  PHP, Bootstrap" />
     <link href="./assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./assets/css/webkit.css" rel="stylesheet" />
     <link href="./assets/css/style.css" rel="stylesheet" />
     <link href="./assets/icons/php-icon.svg" rel="icon" type="image/svg+xml" size="any" />
     <title>Home de Conteúdos</title>
@@ -74,17 +75,17 @@
                 </dd>
                 <dt><a href="#"> Formulários</a></dt>
                 <dd>
-                    &rightarrow; Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam explicabo, rerum ab sint repellat deleniti dolore? Sit quae modi eum officia doloribus officiis, dicta itaque veritatis ipsa, nemo architecto autem.
+                    &rightarrow; Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam explicabo, rerum ab sint repellat deleniti dolore? Sit quae modi eum officia doloribus officiis, dicta itaque  veritatis ipsa, nemo architecto autem.
                 </dd>
             </dl>
         </section>
     </main>
-    <footer class="container">
-        <div class="container text-justify">
-            <p class="obs">
+    <footer class="container mt-4 mb-4">
+        <section class="container">
+            <p class="obs text-center">
                 Obs: Os páginas criadas servem apenas para proporcionar um ambiente de apresentação. Não é discutido como é se criar uma página, muito menos como trabalhar com HTML, CSS ou Bootstrap.
             </p>
-        </div>
+        </section>
     </footer>
 </body>
 

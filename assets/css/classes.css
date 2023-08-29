@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@import url("./animation.css");
+
+.flutuar {
+  animation: flutuar 2s infinite alternate-reverse;
+  height: 200px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.obs {
+  color: #78767c;
+  font-size: 0.8em;
+}
+
+.obs::selection {
+  color: red;
+}
+
+.purple {
+  color: #a277ff;
+}
