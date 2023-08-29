@@ -9,34 +9,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Cristian Pessotto" />
     <meta name="description" content="Página inicial para incorporar todos os conteúdos discutidos e estudados em PHP" />
-    <meta name="keywords" content="HTML,  CSS,  JS" />
-    <!-- <link href="css/style.css" rel="stylesheet" /> -->
-    <!-- <link href="icons/name.png" rel="icon" type="image/png" size="16x16" /> -->
-    <title>My Web Site</title>
-    <style>
-        body {
-            background-color: #110f18;
-            color: #61ffca;
-        }
-    </style>
+    <meta name="keywords" content="HTML,  CSS,  PHP, Bootstrap" />
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./assets/css/style.css" rel="stylesheet" />
+    <link href="./assets/icons/php-icon.svg" rel="icon" type="image/svg+xml" size="any" />
+    <title>Home de Conteúdos</title>
 </head>
 
 <body>
-    <!--! Cabeçalho da Página -->
-    <header>
-        <!--Code-->
-    </header>
-    <!--! Conteúdo da Página -->
-    <main>
-        <section>
+    <main class="container">
+        <h1 class="text-center mt-4 mb-4 purple">
+            Estudando <span class="italic">PHP</span> 🐘
+        </h1>
+        <section class="container">
             <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum dignissimos molestias ullam asperiores vitae esse minima rem quo. Voluptate, fuga! Ea deserunt perspiciatis labore ducimus dolorum, esse libero ut quasi!
+                Bem-vindo à home de conteúdos! Aqui irá conter <a href="#atalhos" class="purple">atalhos</a> para outras páginas, que por sua vez, abordam de forma mais aprimorada os conceitos da linguagem PHP, tais como, variáveis, controle de fluxo, arrays etc.
             </p>
+            <div class="d-flex justify-content-center mb-5">
+                <img class="flutuar" alt="Logo do PHP flutuando" src="assets/icons/php-logo.svg" />
+            </div>
         </section>
-        <section></section>
+        <section class="container">
+            <h3 id="atalhos">Segue abaixo alguns dos assuntos estudados:</h3>
+            <dl>
+                <dt><a href="#"> Programa Base</a></dt>
+                <dd>
+                    &rightarrow; A base de qualquer script em PHP: tags de código, corpo principal e comentários.
+                </dd>
+                <dt><a href="#"> Variáveis e Constantes</a></dt>
+                <dd>
+                    &rightarrow; Definição de tipos, regras de identificadores, declaração e inicialização de variáveis/constantes.
+                </dd>
+                <dt><a href="#"> Funções de I/O</a></dt>
+                <dd>
+                    &rightarrow; Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam explicabo, rerum ab sint repellat deleniti dolore? Sit quae modi eum officia doloribus officiis, dicta itaque veritatis ipsa, nemo architecto autem.
+                </dd>
+                <dt><a href="#"> Operadores</a></dt>
+                <dd>
+                    &rightarrow; Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam explicabo, rerum ab sint repellat deleniti dolore? Sit quae modi eum officia doloribus officiis, dicta itaque veritatis ipsa, nemo architecto autem.
+                </dd>
+                <dt><a href="#"> Tratamento de Tipos</a></dt>
+                <dd>
+                    &rightarrow; Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam explicabo, rerum ab sint repellat deleniti dolore? Sit quae modi eum officia doloribus officiis, dicta itaque veritatis ipsa, nemo architecto autem.
+                </dd>
+                <dt><a href="#"> Controle de Fluxo</a></dt>
+                <dd>
+                    &rightarrow; Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam explicabo, rerum ab sint repellat deleniti dolore? Sit quae modi eum officia doloribus officiis, dicta itaque veritatis ipsa, nemo architecto autem.
+                </dd>
+                <dt><a href="#"> Vetores e Matrizes</a></dt>
+                <dd>
+                    &rightarrow; Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam explicabo, rerum ab sint repellat deleniti dolore? Sit quae modi eum officia doloribus officiis, dicta itaque veritatis ipsa, nemo architecto autem.
+                </dd>
+                <dt><a href="#"> Funções</a></dt>
+                <dd>
+                    &rightarrow; Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam explicabo, rerum ab sint repellat deleniti dolore? Sit quae modi eum officia doloribus officiis, dicta itaque veritatis ipsa, nemo architecto autem.
+                </dd>
+                <dt><a href="#"> Funções Internas</a></dt>
+                <dd>
+                    &rightarrow; Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam explicabo, rerum ab sint repellat deleniti dolore? Sit quae modi eum officia doloribus officiis, dicta itaque veritatis ipsa, nemo architecto autem.
+                </dd>
+                <dt><a href="#"> Orientação a Objetos</a></dt>
+                <dd>
+                    &rightarrow; Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam explicabo, rerum ab sint repellat deleniti dolore? Sit quae modi eum officia doloribus officiis, dicta itaque veritatis ipsa, nemo architecto autem.
+                </dd>
+                <dt><a href="#"> Formulários</a></dt>
+                <dd>
+                    &rightarrow; Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam explicabo, rerum ab sint repellat deleniti dolore? Sit quae modi eum officia doloribus officiis, dicta itaque veritatis ipsa, nemo architecto autem.
+                </dd>
+            </dl>
+        </section>
     </main>
-    <!--! Rodapé da Página -->
-    <footer></footer>
+    <footer class="container">
+        <div class="container text-justify">
+            <p class="obs">
+                Obs: Os páginas criadas servem apenas para proporcionar um ambiente de apresentação. Não é discutido como é se criar uma página, muito menos como trabalhar com HTML, CSS ou Bootstrap.
+            </p>
+        </div>
+    </footer>
 </body>
 
 </html>
