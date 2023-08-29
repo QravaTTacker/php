@@ -10,7 +10,7 @@
     <meta name="author" content="Cristian Pessotto" />
     <meta name="description" content="Página inicial para incorporar todos os conteúdos discutidos e estudados em PHP" />
     <meta name="keywords" content="HTML,  CSS,  PHP, Bootstrap" />
-    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="./assets/css/style.css" rel="stylesheet" />
     <link href="./assets/icons/php-icon.svg" rel="icon" type="image/svg+xml" size="any" />
     <title>Home de Conteúdos</title>
