@@ -5,3 +5,9 @@
     height: 150px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  h1 {
+    width: 100% !important;
+  }
+}

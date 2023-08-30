@@ -19,9 +19,11 @@
 
 <body>
     <main class="container">
-        <h1 class="text-center mt-4 mb-4 purple">
-            Estudando <span class="italic">PHP</span> 🐘
-        </h1>
+        <div class="container d-flex justify-content-center">
+            <h1 class="text-center mt-4 mb-4 p-4 purple">
+                Estudando <span class="italic">PHP</span> 🐘
+            </h1>
+        </div>
         <section class="container">
             <p>
                 Bem-vindo à home de conteúdos! Aqui irá conter <a href="#atalhos" class="purple">atalhos</a> para outras páginas, que por sua vez, abordam de forma mais aprimorada os conceitos da linguagem PHP, tais como, variáveis, controle de fluxo, arrays etc.
@@ -75,7 +77,7 @@
                 </dd>
                 <dt><a href="#"> Formulários</a></dt>
                 <dd>
-                    &rightarrow; Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam explicabo, rerum ab sint repellat deleniti dolore? Sit quae modi eum officia doloribus officiis, dicta itaque  veritatis ipsa, nemo architecto autem.
+                    &rightarrow; Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam explicabo, rerum ab sint repellat deleniti dolore? Sit quae modi eum officia doloribus officiis, dicta itaque veritatis ipsa, nemo architecto autem.
                 </dd>
             </dl>
         </section>

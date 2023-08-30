@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-@import url("./animation.css");
-
 .flutuar {
   animation: flutuar 2s infinite alternate-reverse;
   height: 200px;
@@ -13,7 +11,7 @@
 
 .obs {
   color: #78767c;
-  font-size: 0.8em;
+  font-size: 0.8rem;
 }
 
 .obs::selection {
