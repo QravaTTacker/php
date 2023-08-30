@@ -33,7 +33,7 @@
             </div>
         </section>
         <section class="container">
-            <h3 id="atalhos">Segue abaixo alguns dos assuntos estudados:</h3>
+            <p id="atalhos">Os assuntos estão separados em 11 módulos numerados de 0 até 10 e, se necessário, são subdivididos em sessões (s00, s01 etc). Segue abaixo alguns dos assuntos estudados:</p>
             <dl>
                 <dt><a href="#"> Programa Base</a></dt>
                 <dd>
@@ -41,31 +41,31 @@
                 </dd>
                 <dt><a href="#"> Variáveis e Constantes</a></dt>
                 <dd>
-                    &rightarrow; Definição de tipos, regras de identificadores, declaração e inicialização de variáveis/constantes.
+                    &rightarrow; Definição de tipos escalares, regras de identificadores, declaração e inicialização de variáveis/constantes.
                 </dd>
                 <dt><a href="#"> Funções de I/O</a></dt>
                 <dd>
-                    &rightarrow; Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam explicabo, rerum ab sint repellat deleniti dolore? Sit quae modi eum officia doloribus officiis, dicta itaque veritatis ipsa, nemo architecto autem.
+                    &rightarrow; Como mostrar mensagens e receber dados via linha de comando (há uma sessão própria para interação na web).
                 </dd>
                 <dt><a href="#"> Operadores</a></dt>
                 <dd>
-                    &rightarrow; Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam explicabo, rerum ab sint repellat deleniti dolore? Sit quae modi eum officia doloribus officiis, dicta itaque veritatis ipsa, nemo architecto autem.
+                    &rightarrow; Operadores aritméticos, relacionais, lógicos, ternário, coalescência nula etc.
                 </dd>
                 <dt><a href="#"> Tratamento de Tipos</a></dt>
                 <dd>
-                    &rightarrow; Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam explicabo, rerum ab sint repellat deleniti dolore? Sit quae modi eum officia doloribus officiis, dicta itaque veritatis ipsa, nemo architecto autem.
+                    &rightarrow; Existência de variáveis e valores, verificação de tipagem, type casting.
                 </dd>
                 <dt><a href="#"> Controle de Fluxo</a></dt>
                 <dd>
-                    &rightarrow; Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam explicabo, rerum ab sint repellat deleniti dolore? Sit quae modi eum officia doloribus officiis, dicta itaque veritatis ipsa, nemo architecto autem.
+                    &rightarrow; Condicionais simples, compostos, aninhados, de múltipla escolha, estruturas de repetição (ciclos/loops).
                 </dd>
                 <dt><a href="#"> Vetores e Matrizes</a></dt>
                 <dd>
-                    &rightarrow; Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam explicabo, rerum ab sint repellat deleniti dolore? Sit quae modi eum officia doloribus officiis, dicta itaque veritatis ipsa, nemo architecto autem.
+                    &rightarrow; Declaração, inicialização de vetores/matrizes, manipulação de arrays associativos.
                 </dd>
                 <dt><a href="#"> Funções</a></dt>
                 <dd>
-                    &rightarrow; Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam explicabo, rerum ab sint repellat deleniti dolore? Sit quae modi eum officia doloribus officiis, dicta itaque veritatis ipsa, nemo architecto autem.
+                    &rightarrow; Definição de copro e assinatura, passagem de parâmetros, retorno de valores;
                 </dd>
                 <dt><a href="#"> Funções Internas</a></dt>
                 <dd>
