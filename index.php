@@ -65,7 +65,7 @@
                 </dd>
                 <dt><a href="#"> Funções</a></dt>
                 <dd>
-                    &rightarrow; Definição de copro e assinatura, passagem de parâmetros, retorno de valores;
+                    &rightarrow; Definição de corpo e assinatura, passagem de parâmetros, retorno de valores.
                 </dd>
                 <dt><a href="#"> Funções Internas</a></dt>
                 <dd>
